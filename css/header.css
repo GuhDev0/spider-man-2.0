@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #848fff17;
+    align-items: center;
+    padding: 20px;
+}
+header .logo-marvel{
+    width: 150px;
+    
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;    
+    
+}
+header nav li{
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    
+}
+header  nav  li :hover{
+    background-color: red;
+    border-radius: 40px;
+    transition: 0.20s ease-in-out;
+    transform: scale(1.0) ;
+    
+}
+
+header nav li a{
+    text-decoration: none;
+    padding: 10px;
+}
+header nav li a:visited{
+    color: white;
+}
